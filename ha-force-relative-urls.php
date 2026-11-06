@@ -68,7 +68,7 @@ function ha_force_relative_urls_get_updater() {
     require_once $puc_file;
 
     $update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-        'https://github.com/mystryx1337/ha-force-relative-urls/',
+        'https://github.com/alexhaio/ha-force-relative-urls/',
         __FILE__,
         'ha-force-relative-urls'
     );
